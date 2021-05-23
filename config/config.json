@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "outlook-addin-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/outlookAddin/OutlookAddinWebPart.js",
+          "manifest": "./src/webparts/outlookAddin/OutlookAddinWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OutlookAddinWebPartStrings": "lib/webparts/outlookAddin/loc/{locale}.js"
+  }
+}
